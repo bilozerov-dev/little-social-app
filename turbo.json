@@ -1,0 +1,25 @@
+{
+  "$schema": "https://v2-8-17.turborepo.dev/schema.json",
+  "tasks": {
+    "build": {
+      "outputs": [
+        ".next/**",
+        "!.next/cache/**",
+        "build/**"
+      ]
+    },
+    "dev": {
+      "cache": false,
+      "persistent": true
+    },
+    "start": {
+      "cache": false,
+      "persistent": true
+    },
+    "lint": {},
+    "test": {},
+    "clean": {
+      "cache": false
+    }
+  }
+}

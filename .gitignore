@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Turbo
+.turbo
+
+# Production builds
+build/
+dist/
+.next/
+out/
+
+# Misc
+.DS_Store
+*.pem
+
+# Debug
+npm-debug.log*
+
+# Environment files
+.env
+.env*.local
+
+# TypeScript
+*.tsbuildinfo
+
+# Lock files (optional - some prefer to commit these)
+package-lock.json
+
+# Personal notes
+note-for-yourself.md
+todo.md
+TODO.md
