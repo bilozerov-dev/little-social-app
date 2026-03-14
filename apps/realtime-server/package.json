@@ -1,0 +1,29 @@
+{
+  "name": "@little-social-app/realtime-server",
+  "version": "0.0.1",
+  "description": "realtime data handler",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon ./src/index.ts",
+    "build": "tsc --build",
+    "start": "node ./build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "clean": "rm -rf node_modules build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.2",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "optionalDependencies": {
+    "bufferutil": "^4.0.9",
+    "utf-8-validate": "^6.0.5"
+  }
+}

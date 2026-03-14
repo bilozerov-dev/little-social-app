@@ -1,0 +1,1 @@
+export const SIGNED_URL_EXPIRATION = 60 * 60 * 24 * 7; // 7 days
