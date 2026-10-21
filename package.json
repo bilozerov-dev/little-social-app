@@ -1,10 +1,6 @@
 {
   "name": "little-social-app",
   "private": true,
-  "workspaces": [
-    "apps/*",
-    "packages/*"
-  ],
   "scripts": {
     "dev": "turbo run dev",
     "build": "turbo run build",
@@ -12,9 +8,9 @@
     "lint": "turbo run lint",
     "test": "turbo run test",
     "clean": "turbo run clean",
-    "reinstall": "npm run clean && rm -rf node_modules package-lock.json && npm install"
+    "reinstall": "pnpm run clean && rm -rf node_modules && pnpm install"
   },
-  "packageManager": "npm@10.0.0",
+  "packageManager": "pnpm@12.14.0",
   "devDependencies": {
     "turbo": "^2.8.17"
   }

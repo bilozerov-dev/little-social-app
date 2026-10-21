@@ -16,6 +16,7 @@ out/
 
 # Debug
 npm-debug.log*
+pnpm-debug.log*
 
 # Environment files
 .env
@@ -24,9 +25,6 @@ npm-debug.log*
 # TypeScript
 *.tsbuildinfo
 next-env.d.ts
-
-# Lock files (optional - some prefer to commit these)
-package-lock.json
 
 # Personal notes
 note-for-yourself.md
