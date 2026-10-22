@@ -8,7 +8,13 @@
     "lint": "turbo run lint",
     "test": "turbo run test",
     "clean": "turbo run clean",
-    "reinstall": "pnpm run clean && rm -rf node_modules && pnpm install"
+    "reinstall": "pnpm run clean && rm -rf node_modules && pnpm install",
+    "typecheck": "turbo run typecheck",
+    "db:up": "docker compose up -d --wait postgres",
+    "db:down": "docker compose down",
+    "db:generate": "pnpm --filter @little-social-app/db db:generate",
+    "db:migrate": "pnpm --filter @little-social-app/db db:migrate",
+    "db:studio": "pnpm --filter @little-social-app/db db:studio"
   },
   "packageManager": "pnpm@12.14.0",
   "devDependencies": {

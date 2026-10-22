@@ -27,6 +27,4 @@ pnpm-debug.log*
 next-env.d.ts
 
 # Personal notes
-note-for-yourself.md
-todo.md
-TODO.md
+idea.md
